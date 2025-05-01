@@ -1,0 +1,44 @@
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Временные файлы редакторов
+*~
+*.swp
+*.swo
+
+# Директории зависимостей
+node_modules/
+__pycache__/
+venv/
+.env/
+dist/
+build/
+*.egg-info
+
+# Файлы IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Логи и артефакты
+*.log
+*.tmp
+*.bak
+
+# Конфиденциальные данные
+.env
+*.key
+*.cert
+*.pem
+
+# Бинарные файлы
+*.exe
+*.dll
+*.so
+*.o
+*.class
+
+# Документация и тестовые данные
+docs/_build
+coverage/
