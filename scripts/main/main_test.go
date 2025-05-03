@@ -16,7 +16,7 @@ func TestVolumeOfSphere(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		got := VolumeOfSphere(tt.radius)
+		got := volumeOfSphere(tt.radius)
 		if got != tt.want {
 			t.Errorf("VolumeOfSphere(%v) = %v, want %v", tt.radius, got, tt.want)
 		}
